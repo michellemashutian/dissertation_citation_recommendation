@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+export BERT_BASE_DIR=/space1/google_groups/zheng_shutian/dissertation/chapter3/bert_model/bert
+export MY_DATASET=/space1/google_groups/zheng_shutian/dissertation/chapter3/bert_data
+python run_classifier_test.py --use_tpu=False --task_name=qcrs --do_train=true --do_eval=false --do_predict=true --data_dir=/space1/google_groups/zheng_shutian/dissertation/chapter3/bert_data --vocab_file=/space1/google_groups/zheng_shutian/dissertation/chapter3/bert_model/bert/vocab.txt --bert_config_file=/space1/google_groups/zheng_shutian/dissertation/chapter3/bert_model/bert/bert_config.json --init_checkpoint=/space1/google_groups/zheng_shutian/dissertation/chapter3/bert_model/bert/bert_model.ckpt --max_seq_length=300 --train_batch_size=64 --learning_rate=5e-5 --num_train_epochs=10.0 --output_dir=/space1/google_groups/zheng_shutian/dissertation/chapter3/bert_result/batch64_epoch10_5e5
