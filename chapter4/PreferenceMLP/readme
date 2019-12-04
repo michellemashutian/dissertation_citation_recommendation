@@ -1,0 +1,3 @@
+model_concat is the file we just concate paper content embedding and node embedding
+model_attention is we add normal attention mechanism on paper content embedding and node embedding
+model_self_attention is we add self attention on paper content embedding and node embedding
