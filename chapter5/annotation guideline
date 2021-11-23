@@ -1,0 +1,4 @@
+Annotation Guideline
+Description of Annotation Task
+This annotation guideline is about labeling issues in task of citation recommendation based on argumentative zoning of user queries. To make full use of semantic information containing in user query, we need to construct a dataset with pairs of labeled citing sentences and corresponding citation. This guideline mainly introduces the methods that how to label each user query with a specific argumentative category defined in this paper.
+When investigating the categories of user query, we conduct the literature survey about scientific text argumentative zoning and citation function classification. Our scheme is derived from these two areas of researches. By further pre-labeling the sample data, we proposed the classification scheme shown in Table B.1 below:
